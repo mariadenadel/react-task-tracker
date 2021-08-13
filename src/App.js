@@ -1,12 +1,13 @@
 import Header from './components/Header'
+import Tasks from './components/Tasks'
 
 function App() {
   const name = 'Brad'
-  let number = 1
 
   return (
     <div className="container">
       <Header />
+      <Tasks />
     </div>
   );
 }
